@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./validation.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValidarTest3</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Nomina a un niño</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="nomina">Nombre</label>
+                <input type="text" placeholder="Juan" id="nombre" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="nomina">Apellido</label>
+                <input type="text" placeholder="Hernandez" id="apellido" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="nomina">Correo electronico</label>
+                <input type="email" placeholder="juan_hernandez@correo.com" id="email" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="nomina">Telefono</label>
+                <input type="text" placeholder="7711234567" id="telefono"/>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
